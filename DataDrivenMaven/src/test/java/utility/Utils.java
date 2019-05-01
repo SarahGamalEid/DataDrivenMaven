@@ -42,9 +42,12 @@ public class Utils {
 	
 	public static String getTestCaseName(String sTestCase)throws Exception{
 		String value = sTestCase;
+		System.out.println("sTestCases" + sTestCase);
 		try{
 			int posi = value.indexOf("@");
+			System.out.println("sTestCase.indexOf(\"@\");" + posi);
 			value = value.substring(0, posi);
+			System.out.println("value.substring 0, posi" + value);
 			posi = value.lastIndexOf(".");	
 			value = value.substring(posi + 1);
 			return value;
