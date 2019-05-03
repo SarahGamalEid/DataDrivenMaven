@@ -25,7 +25,7 @@ public class Utils {
 			//driver = new FirefoxDriver();
 			
 		       String cwd = System.getProperty("user.dir");
-		       //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven
+		      // //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven
 		       //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven\scr\test\resources\chromedriver.exe
 		        System.out.println("Current working directory : " + cwd);
 			 System.setProperty("webdriver.chrome.driver", cwd+Constant.Path_ChromeBroswer);
