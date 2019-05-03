@@ -5,23 +5,23 @@
       <![CDATA[SignIn Action is successfully perfomred]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11722" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:30Z">
+  <suite name="Default suite" duration-ms="11299" started-at="2019-05-03T13:18:16Z" finished-at="2019-05-03T13:18:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11722" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:30Z">
+    <test name="Default test" duration-ms="11299" started-at="2019-05-03T13:18:16Z" finished-at="2019-05-03T13:18:27Z">
       <class name="testCases.Framework_002">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="8476" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="7782" started-at="2019-05-03T13:18:16Z" finished-at="2019-05-03T13:18:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="f" duration-ms="877" started-at="2019-05-03T09:37:27Z" finished-at="2019-05-03T09:37:27Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="f" duration-ms="1145" started-at="2019-05-03T13:18:24Z" finished-at="2019-05-03T13:18:25Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="afterMethod" is-config="true" duration-ms="2327" started-at="2019-05-03T09:37:27Z" finished-at="2019-05-03T09:37:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="afterMethod" is-config="true" duration-ms="2345" started-at="2019-05-03T13:18:25Z" finished-at="2019-05-03T13:18:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

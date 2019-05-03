@@ -31,6 +31,14 @@ public class Framework_002 {
 	  	sTestCaseName = Utils.getTestCaseName(this.toString());
 		//* Log.startTestCase(sTestCaseName);
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
+		
+		System.out.println("the path of tc" + Constant.Path_TestData + Constant.File_TestData);
+		System.out.println(System.getProperty("user.dir"));
+		
+		//the path of tcC:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven\src\test\java\testData\TestData.xlsx
+		              //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven
+		
+		
 		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName,Constant.Col_TestCaseName);
 		driver = Utils.OpenBrowser(iTestCaseRow);
 		new BaseClass(driver);  

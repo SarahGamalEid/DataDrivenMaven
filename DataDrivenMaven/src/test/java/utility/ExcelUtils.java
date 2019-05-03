@@ -17,13 +17,18 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
             //This method is to set the File path and to open the Excel file, Pass Excel Path and Sheetname as Arguments to this method
             public static void setExcelFile(String Path,String SheetName) throws Exception {
                    try {
-                	   String cwd = System.getProperty("user.dir");
+                	   //String cwd = System.getProperty("user.dir");
          		      // //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven
          		       //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven\scr\test\resources\chromedriver.exe
-         		        System.out.println("Current working directory : " + cwd);
-                	   
+         		       // System.out.println("Current working directory : " + cwd);
+                	    
+         		        
+         		        // String Path1=cwd.concat(Path);
+         		        //String abosultePath = cwd + Path;
+         		      // System.out.println("abosultePath directory : " + Path1);
+         		        //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven\src\test\java\testData\TestData.xlsx
                 	   // Open the Excel file
-                    FileInputStream ExcelFile = new FileInputStream(cwd+Path);
+                    FileInputStream ExcelFile = new FileInputStream(Path);
                     // Access the required test data sheet
                     ExcelWBook = new XSSFWorkbook(ExcelFile);
                     ExcelWSheet = ExcelWBook.getSheet(SheetName);
