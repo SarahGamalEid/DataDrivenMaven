@@ -23,7 +23,12 @@ public class Utils {
 		sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
 		if(sBrowserName.equals("Chrome")){
 			//driver = new FirefoxDriver();
-			 System.setProperty("webdriver.chrome.driver", Constant.Path_ChromeBroswer);
+			
+		       String cwd = System.getProperty("user.dir");
+		       //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven
+		       //C:\Users\GamalS\git\DataDrivenMaven\DataDrivenMaven\scr\test\resources\chromedriver.exe
+		        System.out.println("Current working directory : " + cwd);
+			 System.setProperty("webdriver.chrome.driver", cwd+Constant.Path_ChromeBroswer);
 			 driver = new ChromeDriver();
 			//*Log.info("New driver instantiated");
 		    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

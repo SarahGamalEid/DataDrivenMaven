@@ -1,51 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[SignIn Action is successfully perfomred]]>
     </line>
-    <line>
-      <![CDATA[SignIn Action is successfully perfomred]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="19358" started-at="2019-05-01T05:56:23Z" finished-at="2019-05-01T05:56:42Z">
+  <suite name="Default suite" duration-ms="11722" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:30Z">
     <groups>
     </groups>
-    <test name="Random Test" duration-ms="19358" started-at="2019-05-01T05:56:23Z" finished-at="2019-05-01T05:56:42Z">
+    <test name="Default test" duration-ms="11722" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:30Z">
       <class name="testCases.Framework_002">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Framework_002@604ed9f0]" name="beforeMethod" is-config="true" duration-ms="6029" started-at="2019-05-01T05:56:35Z" finished-at="2019-05-01T05:56:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="8476" started-at="2019-05-03T09:37:18Z" finished-at="2019-05-03T09:37:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:testCases.Framework_002@604ed9f0]" name="f" duration-ms="999" started-at="2019-05-01T05:56:41Z" finished-at="2019-05-01T05:56:42Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="f" duration-ms="877" started-at="2019-05-03T09:37:27Z" finished-at="2019-05-03T09:37:27Z">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Framework_002@604ed9f0]" name="afterMethod" is-config="true" duration-ms="168" started-at="2019-05-01T05:56:42Z" finished-at="2019-05-01T05:56:42Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Framework_002@5c3bd550]" name="afterMethod" is-config="true" duration-ms="2327" started-at="2019-05-03T09:37:27Z" finished-at="2019-05-03T09:37:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.Framework_002 -->
-      <class name="testCases.Framework_001">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Framework_001@91161c7]" name="beforeMethod" is-config="true" duration-ms="8749" started-at="2019-05-01T05:56:23Z" finished-at="2019-05-01T05:56:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.Framework_001@91161c7]" name="main" duration-ms="1194" started-at="2019-05-01T05:56:32Z" finished-at="2019-05-01T05:56:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[SignIn Action is successfully perfomred]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Framework_001@91161c7]" name="afterMethod" is-config="true" duration-ms="2176" started-at="2019-05-01T05:56:33Z" finished-at="2019-05-01T05:56:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.Framework_001 -->
-    </test> <!-- Random Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

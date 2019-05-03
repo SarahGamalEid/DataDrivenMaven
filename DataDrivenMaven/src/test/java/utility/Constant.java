@@ -6,7 +6,8 @@ public class Constant {
 	    public static final String Password ="Test@123";
 		public static final String Path_TestData = "C://Users//GamalS//eclipse-workspace//DataDrivenJars//src//testData//";
 		public static final String File_TestData = "TestData.xlsx";
-		public static final String Path_ChromeBroswer="C://Sara//chromedriver_win32//chromedriver.exe";
+		public static final String Path_ChromeBroswer= "\\scr\\test\\resources\\chromedriver.exe";
+				//"C://Sara//chromedriver_win32//chromedriver.exe";
 		
 		
 		
